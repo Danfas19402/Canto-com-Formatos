@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canto com Formatos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!--Primeira parte-->
+<section>
+	<div style="border: none; line-height: 2lh;">
+		<h1>Canto com Formatos;</h1>
+        <br>
+        <br>
+		
+        <div class="cor">
+        <p style="background: yellow; padding-block: 0.5rem;">Experimental: apenas navegadores baseados em Chrome em setembro de 2025</p>
+		</div>
+        <br>
+
+        <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/corner-shape" target="_blank">Veja a documentação do MDN para mais informações!</a></p>
+	    
+        </div>
+</section>
+
+<!--Segunda parte-->
+<section>
+	<div class="rectangle-small corner-shape"></div>
+	<div class="square-small corner-shape"></div>
+</section>
+
+<!--Terceira parte-->
+<section>
+	<div class="rectangle border-radius">
+		<p>width: 20rem;<br>
+			height: 10rem;<br>
+			border-radius: 10rem;<br>
+			(no corner-shape declared)</p>
+	</div>
+
+	<div class="rectangle corner-shape">
+		<p>width: 20rem;<br>
+			height: 10rem;<br>
+			border-radius: 10rem;<br>
+			<strong>corner-shape: squircle;</strong>
+		</p>
+	</div>
+</section>
+
+<section>
+	<div class="square border-radius">
+		<p>width: 10rem;<br>
+			height: 10rem;<br>
+			border-radius: 10rem;<br>
+			(no corner-shape declared)</p>
+	</div>
+	<div class="square corner-shape">
+		<p>width: 10rem;<br>
+			height: 10rem;<br>
+			border-radius: 10rem;<br>
+			<strong>corner-shape: squircle;</strong>
+		</p>
+	</div>
+</section>
+
+</body>
+</html>
