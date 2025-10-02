@@ -1,6 +1,6 @@
 # 📐 Canto com Formatos
 
-O **Canto com Formatos** é um projeto interativo desenvolvido em **HTML, CSS e JavaScript**, que trabalha com formas geométricas posicionadas nos cantos da tela.  
+O **Canto com Formatos** é um projeto interativo desenvolvido em **HTML, CSS**, que trabalha com formas geométricas posicionadas nos cantos da tela.  
 A ideia é explorar **design, posicionamento e responsividade**, permitindo visualizar como diferentes formatos podem se organizar e interagir dentro de um layout.
 
 ---
